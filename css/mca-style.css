@@ -185,8 +185,8 @@ a {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(9,8%);
-  grid-template-rows: repeat(3, 100px);
-  padding-bottom: 10px;
+  grid-template-rows: repeat(3, 80px);
+  padding-bottom: 140px;
 }
 
 .item1 {
@@ -245,4 +245,21 @@ grid-row-start: 3;
 }
 button {
   font-family: "Didact Gothic", sans-serif;
+}
+.programs {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 1rem;
+}
+.program-card {
+  position: relative; 
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+}
+.program-card img {
+  width: 100%;
+  display: block;
 }
