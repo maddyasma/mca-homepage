@@ -173,6 +173,7 @@ footer {
   background-color: black;
   color: white;
   padding: 5px;
+  border-top: black solid 2px;
   
 }
 .footer__header {
@@ -330,10 +331,6 @@ border-left: black solid 1px;
 #policestate {
 border-left: black solid 1px;
 }
-
-
-
-
 
 .blogposts {
   display: flex;
