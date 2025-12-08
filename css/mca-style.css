@@ -5,6 +5,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 h1{
     font-family: "Didact Gothic", sans-serif;
     font-size: 2rem;
@@ -180,8 +182,13 @@ footer {
   letter-spacing: .2rem;
 }
 
+
 a {
   font-family: "Didact Gothic", sans-serif;
+}
+
+.grid-container a {
+  text-decoration: none;
 }
 
 .footer-container {
@@ -189,7 +196,9 @@ a {
   grid-gap: 2rem;
   grid-template-columns: repeat(9,8%);
   grid-template-rows: repeat(3, 80px);
+  padding-top: 10px;
   padding-bottom: 140px;
+  border-top: black solid 2px;
 }
 
 .item1 {
@@ -312,4 +321,32 @@ button {
 }
 #mcastore {
   border-left: black solid 1px;
+}
+.blogposts {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 1rem 0 5rem 0;
+  width: 80%;
+}
+.blogposts-card {
+  position: relative; 
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+}
+.blogposts-card img {
+  width: 100%;
+  display: block;
+}
+
+.blogposts caption {
+  position: absolute;
+  bottom: 20%; 
+  left: 5%;
+  width: 90%;  
+  background: white;
+  padding: 5%;
+  box-sizing: border-box;
 }
