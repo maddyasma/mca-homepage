@@ -271,8 +271,40 @@ button {
   color: white;
   padding: 20px 0 20px 20px;
   margin-top: 30px;
-  margin-bottom: 30px;
   background-image: url("../images/featured-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+
+}
+.featured-card img {
+  width: 100%;
+}
+
+.featured-card h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #1b1bff;
+  padding-bottom: 0.5rem;
+}
+.featured-card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0;
+}
+.featured-articles {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 2rem 2rem 0 0;
+}
+#mcastore {
+  border-left: black solid 1px;
 }
